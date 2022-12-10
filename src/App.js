@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       {/* Counter App with useState */}
+      <div style={{textAlign: 'center'}}>State management with useState hook.</div>
       <div
         style={{
           padding: 20,
@@ -29,6 +30,7 @@ function App() {
         </button>
         <div>{count}</div>
       </div>
+      <div style={{textAlign: 'center'}}>State management with useReducer hook.</div>
       <ReducerApp/>
     </>
   );
